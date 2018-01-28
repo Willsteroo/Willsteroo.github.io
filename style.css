@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+* {
+    font-family: 'Metal Mania', cursive;
+    color: black;
+}
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-inner {
+    padding: 10%;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    width: 20%;
+    float: none;
+}
+
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: .5px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+#t {
+    font-size: 3em;
+}
+#p {
+    font-size: 2em;
+    padding-left: 5%;
+}
+#h {
+    font-size: 4.5em;
+}
+#navback {
+    color: white;
+    background-color: black;
+    
+}
+#m {
+    font-size: 2em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#members{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+}
+#membersimg {
+    display: inline-block;
+    width: 10%;
+}
+#memberdesc {
+    
+    width: 80%;
+    padding-left: 10%;
+}
+#con {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    text-align: center;
+}
+#snm {
+    width: 20%;
+}
+@media only screen and (min-width: 500px) {
+    #n {
+    font-size: 2em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #p {
+        font-size: 1.5em;
+    }
+    #m {
+        font-size: 1.5em;
+    }
+    #membersimg {
+        width: 30%;
+    }
+    #membersdesc {
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #members {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1220px) and (min-width: 500px) {
+    #membersimg {
+        width: 20%;
+    }
+}
+body { padding-top: 75px; }
