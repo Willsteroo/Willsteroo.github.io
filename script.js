@@ -57,7 +57,8 @@ $(document).ready(function(){
         $("#nav").hide();
     } else if (w>1200) {
         hidestuff();
-        about.show();
+        contact.show();
+        showButtons();
     }
     
 });

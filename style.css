@@ -62,3 +62,6 @@ button {
 #joke:active {
     font-size: 200%;
 }
+#projects {
+    overflow: auto;
+}
