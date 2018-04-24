@@ -1,0 +1,64 @@
+div {
+    
+}
+button {
+    background-color: #438496;
+}
+body {
+    background-color: #438496;
+}
+#all {
+    background-color: #B37D4E;
+}
+#breeze {
+    background-color: #438496;
+}
+
+#mePic {
+    width: 40%;
+    
+}
+#meInfo {
+    text-align: center;
+    
+}
+#nav {
+    text-align: center;
+}
+button {
+    width: 100%;
+}
+#skills {
+    
+}
+#columns {
+}
+.fa {
+    
+}
+@keyframes name {
+    from { top:-500px}
+    to { top:0px}
+}
+#name {
+    position: relative;
+    animation-name: name;
+    animation-duration: 2s;
+}
+
+@keyframes desc {
+    from {top: -500px;}
+    to {top: 0px;}
+}
+#desc {
+    position: relative;
+    animation-name: desc;
+    animation-duration: 6s;
+}
+
+#joke {
+    text-align: center;
+}
+#joke:active {
+    font-size: 200%;
+}
