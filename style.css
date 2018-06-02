@@ -79,4 +79,7 @@ button {
     #mePic {
         width: 25%;
     }
+   #font {
+        font-size: 1.5em;
+    }
 }
