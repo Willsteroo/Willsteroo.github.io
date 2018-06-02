@@ -1,18 +1,6 @@
 div {
     
 }
-button {
-    background-color: #438496;
-}
-body {
-    background-color: #438496;
-}
-#all {
-    background-color: #B37D4E;
-}
-#breeze {
-    background-color: #438496;
-}
 
 #mePic {
     width: 40%;
@@ -20,18 +8,12 @@ body {
 }
 #meInfo {
     text-align: center;
-    
 }
 #nav {
     text-align: center;
 }
-button {
-    width: 100%;
-}
 #skills {
-    
-}
-#columns {
+    text-align: center;
 }
 .fa {
     
@@ -61,7 +43,4 @@ button {
 }
 #joke:active {
     font-size: 200%;
-}
-#projects {
-    overflow: auto;
 }
