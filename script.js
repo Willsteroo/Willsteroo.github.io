@@ -50,7 +50,7 @@ $(document).ready(function(){
         hidestuff();
         projects.fadeIn(500);
     });
-    var w=window.innerWidth;
+    /*var w=window.innerWidth;
     if (w<1200){
         hideButtons();
         showstuff();
@@ -59,6 +59,9 @@ $(document).ready(function(){
         hidestuff();
         contact.show();
         showButtons();
-    }
+    }*/
+    hidestuff();
+    contact.show();
+    showButtons();
     
 });

@@ -1,6 +1,19 @@
 div {
     
 }
+button {
+    background-color: #438496;
+    border: none;
+}
+body {
+    background-color: #438496;
+}
+#all {
+    background-color: #B37D4E;
+}
+#breeze {
+    background-color: #438496;
+}
 
 #mePic {
     width: 40%;
@@ -8,12 +21,18 @@ div {
 }
 #meInfo {
     text-align: center;
+    
 }
 #nav {
     text-align: center;
 }
+button {
+    width: 100%;
+}
 #skills {
-    text-align: center;
+    
+}
+#columns {
 }
 .fa {
     
@@ -43,4 +62,21 @@ div {
 }
 #joke:active {
     font-size: 200%;
+}
+#projects {
+    overflow: auto;
+}
+@media screen and (max-width: 1200px) {
+    button {
+        width: 23%;
+    }
+    #nav {
+        text-align: center;
+    }
+    #space {
+        display: none;
+    }
+    #mePic {
+        width: 25%;
+    }
 }
