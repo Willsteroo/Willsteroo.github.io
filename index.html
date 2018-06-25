@@ -1,92 +1,80 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCUMENT html>
+<html lang="en"><!--Always include lang="en"-->
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-        <script src="script.js"></script>
+        <meta charset="utf-8"> <!--Always include <meta charset="utf-8"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--This Too-->
         
-    </head>
-    <body>
-        <div class="container-fluid" id="all">
-            <div class="row" id="breeze">
-                <div class="col-lg-3">
-                    <br><br>
-                    <img src="My%20Work%20Image.png" class="img-circle img-responsive center-block" id="mePic">
-                    <p id="joke">Click to enlarge.</p>
-                </div>
-                <div class="col-lg-6" id="meInfo">
-                    <br><br id="space"><br id="space"><br id="space">
-                    <h1 id="name">Joe Bush</h1>
-                    <h2 id="desc">Full. Stack. Developer</h2>
-                </div>
-                <div class="col-lg-3">  
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3" id="nav">
-                    <br><br id="space"><br id="space"><br id="space">
-                    <button id="skillsBtn"><h1 id="font">Skills</h1></button>
-                    <br id="space"><br id="space"><br id="space"><br id="space">
-                    <button id="aboutBtn"><h1 id="font">About</h1></button>
-                    <br id="space"><br id="space"><br id="space"><br id="space">
-                    <button id="contactBtn"><h1 id="font">Contact</h1></button>
-                    <br id="space"><br id="space"><br id="space"><br id="space">
-                    <button id="projectsBtn"><h1 id="font">Projects</h1></button>
-                    <br id="space"><br id="space"><br id="space"><br id="space">
-                </div>
-                
-                <div class="col-lg-8">
-                    <br><br><br><br>
-                    
-                        <div class="row">
-                            <div id="about">
-                                <h1>About:</h1>
-                                <h2>Hi I'm Joe. You can call me a full stack developer. I've been programming for a few years now, mostly helping friends with their projects and learning as much as I can. I am mostly self taught. I go to school for computer science but those are mostly math courses, all the programing and scripting languages I've learned have been on my own. I am also bilingual and speak fluent Spanish. I am hard working, reliable and trust worthy. I'll do any job that is required of me. I know a good amount of algorithms (bubble sort, binary sort...etc) and if you give me two weeks I can learn any knew language. I am the man for the job. I currently drive for Uber and handy man work all around San Diego.</h2>
-                            </div>
-                            <div id="skills">
-                                <h1>Skills:</h1>
-                                <div class="col-lg-4" id="columns">
-                                <h1>HTML</h1>
-                                <h1>CSS</h1>
-                                <h1>Javascript</h1>
-                                <h1>Git</h1>
-                                <h1>C</h1>
-                                </div>
-                                <div class="col-lg-4" id="columns">
-                                <h1>Python</h1>
-                                <h1>PHP</h1>
-                                <h1>C++</h1>
-                                <h1>Java</h1>
-                                <h1>SQL</h1>
-                                </div>
-                                <div class="col-lg-4" id="columns">
-                                <h1>Json</h1>
-                                <h1>GIMP</h1>
-                                <h1>Blender</h1>
-                                </div>
-                        </div>
-                    </div>
-                    <div id="contact">
-                        <h1>Contact:</h1>
-                        <h1>joey1bush23@gmail.com</h1>
-                        <h1><a href="tel:1-619-813-3785">(619) 813-3785</a></h1>
-                    </div>
-                    <div id="projects">
-                        <h1>Projects:</h1>
-                        <h1><a href="https://github.com/Willsteroo">Github Profile</a>
-                            <br>
-                            <br>
-                            <a href="https://github.com/Willsteroo?tab=repositories">Github Projects</a>
-                        </h1>
-                    </div>
-                </div>
-                <div class="col-lg-1">
-                </div>
-            </div>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Joey Bush</title>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body ng-app="app" ng-controller="appCtrl">
+    
+        <!--<button id="dropdown">Social</button>
+        <div id="social">
+            <span style="font-size: 20px">Click social button to Close.</span>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img id="icon" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png">Youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img id="icon" src="https://www.iconfinder.com/data/icons/iconza-circle-social/64/697029-twitter-512.png">Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img id="icon" src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Reddit-icon.png">Reddit
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img id="icon" src="https://www.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-256.png">Facebook
+                    </a>
+                </li>
+            </ul>
+        </div>-->
+    
+    <nav>
+        <div id="nav0" ng-click="$scrollify.goTo(0)">
+            <img src="profile.png">
         </div>
-    </body>
+        <div id="nav1" class="skillsclick" ng-click="$scrollify.goTo(1)">
+            <img src="skillsicon.png">
+        </div>
+        <div id="nav2" class="projectsclick" ng-click="$scrollify.goTo(2)">
+            <img src="work%20icon.png">
+        </div>
+        <div id="nav3" class="contactclick"ng-click="$scrollify.goTo(3)">
+            <img src="mail.png">
+        </div>
+    </nav>
+    <div class="scrollify" hj-scrollify="pane in data.panes" j-scrollify-options="{id: 'myScrollify'}">
+        <div class="content" style="background-color: {{pane.color}}" ng-click="$scrollify.goTo($index)">
+            <div ng-bind-html="pane.html"></div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="javascripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/angular.min.js"></script>
+    <script type="text/javascript" src="javascripts/hamster.js"></script>
+    <script type="text/javascript" src="javascripts/lethargy.js"></script>
+    <script type="text/javascript" src="javascripts/hammer.js"></script>
+    <script type="text/javascript" src="javascripts/angular-scrollify.js"></script>
+    <script type="text/javascript" src="javascripts/jqueryScript.js"></script>
+    <script type="text/javascript" src="javascripts/javascript.js"></script>
+</body>
+
 </html>
